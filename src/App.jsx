@@ -11,6 +11,8 @@ function App() {
               <div>
                   <input type="text" name="" id="" placeholder='   Rechercher par nom' />
               </div>
+              <Robot nom='Hervin howen ' proprio='lorem@mel'/>
+              <Robot nom='Dan clark' proprio='lorem@mel'/>
         </div>
     </div>
   );
