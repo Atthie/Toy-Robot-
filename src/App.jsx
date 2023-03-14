@@ -1,4 +1,4 @@
-
+import Robot from './Robot';
 import './App.css';
 
 function App() {
