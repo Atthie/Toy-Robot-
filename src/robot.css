@@ -1,1 +1,14 @@
-/*# sourceMappingURL=robot.css.map */
+.containerRobot {
+  background-color: #9eebcf;
+  margin-top: 30px;
+  width: 20vh;
+  height: 28vh;
+  border-radius: 3px;
+}
+.containerRobot h4 {
+  margin-top: 8px;
+}
+.containerRobot p {
+  margin-top: 4px;
+  font-size: small;
+}/*# sourceMappingURL=robot.css.map */

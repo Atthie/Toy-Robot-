@@ -1,11 +1,12 @@
+import './robot.css'
 function Robot(props) {
     
     return (
-        <div className="container">
+        <div className="containerRobot">
             <div className="image">
                 <img src= {props.image} alt={props.description} />
             </div>
-            <h3> {props.nom} </h3>
+            <h4> {props.nom} </h4>
             <p>{props.proprio} </p>
         </div>
     )
