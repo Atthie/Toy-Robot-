@@ -1,13 +1,40 @@
+@font-face {
+  font-family: atthie;
+  src: url(./SEGA.TTF);
+}
 *{margin: 0; padding: 0; box-sizing: border-box;}
 .App {
   display: flex; flex-direction: column; align-items: center;
   .container{
-    text-align: center;display: flex; flex-direction: column; align-items: center;background-image: linear-gradient(to left,  #052a59 50%, #007d7e 100%); width: auto;height: auto;margin-top: 100px;margin-bottom: 100px;width: 40vh;
+    gap:20px ;text-align: center;display: flex; flex-direction: column; align-items: center;background-image: linear-gradient(to left,  #052a59 50%, #007d7e 100%); width: auto;height: auto;margin-top: 70px;margin-bottom: 70px;width: 40vh;
     .input input{width: 28vh;height: 28px;background-color: #ccebfe;border: 0px;}
-    .titre{color: #0ccac4;}
-    .robot{margin-bottom: 40px;}
+    .titre{color: #0ccac4; font-family: atthie;margin-top: 15px;}
+    .robot{margin-bottom: 40px;margin-top: -25px;}
   }
 }
-
+@media screen and (min-width: 600px) and (max-width: 991px) {
+  .App {
+    .container{
+      width: 70vh;
+      .input input{}
+      .titre{}
+      .robot{
+        .row{display: flex;flex-flow: row wrap;gap:22px;width: 50vh;justify-content: center;}
+      }
+    }
+  }
+}
+@media screen and (min-width: 992px)  {
+.App{
+    .container{
+      width: 120vh;
+      .input input{}
+      .titre{}
+      .robot{
+        .row{ display: flex;flex-flow: row wrap;gap:12px;width: 100vh;justify-content: center;}
+      }
+    }
+  }
+}
 
 

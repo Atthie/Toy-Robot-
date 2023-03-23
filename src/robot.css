@@ -2,13 +2,36 @@
   background-color: #9eebcf;
   margin-top: 30px;
   width: 20vh;
-  height: 28vh;
-  border-radius: 3px;
+  height: 25vh;
+  border-radius: 4px;
 }
 .containerRobot h4 {
-  margin-top: 8px;
+  margin-top: 15px;
 }
 .containerRobot p {
-  margin-top: 4px;
+  margin-top: 6px;
   font-size: small;
+}
+.containerRobot .image img {
+  width: 12vh;
+  margin-top: -10px;
+}
+.containerRobot:hover {
+  background-color: #ffa126;
+  transform: scale(1.1);
+  transition: all 1s ease;
+}
+
+@media screen and (min-width: 600px) and (max-width: 991px) {
+  .containerRobot {
+    flex-basis: 40%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .containerRobot {
+    flex-basis: 20%;
+  }
+  .containerRobot .image img {
+    width: 15vh;
+  }
 }/*# sourceMappingURL=robot.css.map */
