@@ -6,7 +6,8 @@
 .App {
   display: flex; flex-direction: column; align-items: center;
   .container{
-    gap:20px ;text-align: center;display: flex; flex-direction: column; align-items: center;background-image: linear-gradient(to left,  #052a59 50%, #007d7e 100%); width: auto;height: auto;margin-top: 70px;margin-bottom: 70px;width: 40vh;
+    gap:20px ;text-align: center;display: flex; flex-direction: column; align-items: center;
+    background-image: linear-gradient(to left,  #052a59 50%, #007d7e 100%); width: auto;height: auto;margin-top: 70px;margin-bottom: 70px;width: 40vh;
     .input input{width: 28vh;height: 28px;background-color: #ccebfe;border: 0px;}
     .titre{color: #0ccac4; font-family: atthie;margin-top: 15px;}
     .robot{margin-bottom: 40px;margin-top: -25px;}
@@ -18,9 +19,9 @@
       width: 70vh;
       .input input{}
       .titre{}
-      .robot{
-        .row{display: flex;flex-flow: row wrap;gap:22px;width: 50vh;justify-content: center;}
-      }
+        .robot{
+          .row{display: flex;flex-flow: row wrap;gap:22px;width: 50vh;justify-content: center;}
+        }
     }
   }
 }
@@ -30,9 +31,11 @@
       width: 120vh;
       .input input{}
       .titre{}
-      .robot{
-        .row{ display: flex;flex-flow: row wrap;gap:12px;width: 100vh;justify-content: center;}
-      }
+        .robot{
+          .row{ display: flex;flex-flow: row wrap;gap:12px;width: 100vh;justify-content: center;}
+        }
+
+      
     }
   }
 }

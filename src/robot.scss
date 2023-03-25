@@ -1,18 +1,22 @@
 
-  
-.containerRobot{
-    background-color: #9eebcf;margin-top: 30px;width: 20vh;height: 25vh;border-radius: 4px;
-    h4{margin-top: 15px; }
-    p{margin-top: 6px;font-size:small;}
-    .image{
-        img{width: 12vh;margin-top: -10px; }
+.mainRobot{
+    // position: relative;
+    .containerRobot{
+        background-color: #9eebcf;margin-top: 30px;width: 20vh;height: 25vh;border-radius: 4px;
+        h4{margin-top: 15px; }
+        p{margin-top: 6px;font-size:small;}
+        .image{
+            img{width: 12vh;margin-top: -10px; }
+        }
+        &:hover{
+            background-color: #ffa126;
+            transform: scale(1.1);
+            transition: all 1s ease;
+        }
     }
-    &:hover{
-        background-color: #ffa126;
-        transform: scale(1.1);
-        transition: all 1s ease;
-    }
+ 
 }
+
 @media screen and (min-width: 600px) and (max-width: 991px) {
    .containerRobot{
    flex-basis:  calc(80% / 2); 
